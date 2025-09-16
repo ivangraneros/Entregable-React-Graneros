@@ -1,18 +1,22 @@
-import React from 'react'
 import CartWidget from './CartWidget'
+
 function NavBar() {
   return (
     <>
-      <div>
+        <nav>
           <ul className='navbar'>
-              <li>Inicio</li>
-              <li>Productos</li>
-              <li>Contacto</li>
+              <li>
+                Inicio
+              </li>
+              <li>
+                Producto
+              </li>
+              <li>
+                Contacto
+              </li>
               <CartWidget />
           </ul>
-      </div>
-
-      
+        </nav>
     </>
   )
 }

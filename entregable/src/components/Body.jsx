@@ -4,6 +4,7 @@ function Body() {
   return (
     <div>
         <h1>Bienvenidos a la Tienda</h1>
+        <h2>Productos en oferta!</h2>
         <ItemListContainer producto="Parlante" precio="45000" />
         <ItemListContainer producto="Auriculares" precio="35000" />
     </div>
